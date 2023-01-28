@@ -1,0 +1,176 @@
+*{
+	overflow: none;
+}
+
+#header{
+	margin-bottom: 6%;
+}
+
+#nav-bar{
+	background-color: #f0e8e8;
+}
+.navbar-brand {
+    float: left;
+    height: 69px;
+    padding: 15px 19px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.jumbotron{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #1f1919;
+    text-align: center;
+    font-size: 44px;
+    
+}
+
+
+
+.nav-link{
+	font-size: 30px;
+	text-decoration: none;
+	margin: 15px;
+	color: black;
+}
+
+.nav-link:hover{
+	background-color: black;
+}
+
+#image{
+	margin-left: 30%;
+}
+
+#form-items{
+	background-color: rgba(0,0,0,0.2);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
+    text-align: left;
+}
+
+#form{
+  	margin-left: 35%;
+}
+
+#heading{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 10%;
+}
+
+#email{
+	width: 350px;
+	height: 40px;
+	border: 2px solid rgba(0,0,0,0.3);
+	margin: 10px;
+    text-align: left;
+}
+
+#submit{
+	margin-left: 14%;
+	border: 1px solid rgb(207, 192, 192);
+	background-color: rgb(27, 26, 26);
+	color: rgb(218, 206, 206);
+	width: 100px;
+	height: 40px;
+}
+
+.row{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+
+#colors{
+	padding-bottom: 50px;
+}
+
+#capacity{
+	padding-top: 50px;
+}
+
+#image {
+    margin-left: 15%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.flex-container{
+  	display: flex;
+  	justify-content: center;
+  	flex-direction: row;
+  	margin: 0px;
+  	padding: 0px;
+}
+
+#style1{
+	text-align: center;
+	width: 300px;
+	text-overflow: none;
+	font-size: 25px;
+	border: 2px solid grey;
+	margin-right: 70px;
+}
+
+#style2{
+	text-align: center;
+	text-overflow: none;
+	width: 300px;
+	font-size: 25px;
+	border: 2px solid grey;
+	margin-left: 70px;
+}
+
+@media (max-width: 800px){
+	.flex-container{
+		flex-direction: column;
+	}
+	#style1, #style2{
+		margin-left: 20px;
+	}
+}
+
+.panel{
+	border: 0px;
+}
+
+#price{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#buy{
+	border: 2px solid black;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 10px;
+	width: 100px;
+}
+
+
+footer {
+	font-size: 20px;
+	margin-top: 50px;
+	height: 80px;
+  	background-color: #F1F1F1;
+  	width: 100%;
+	color: black;
+}
+
+#cr{
+	font-size: 30px;
+	padding-left: 15px;
+	padding-top: 20px;
+}
+
+#fnav{
+	font-size: 20px;
+	padding-top: 15px;
+	padding-right: 30px;
+	margin-right: 0;
+}
